@@ -8,7 +8,7 @@
       background:#e8e8e8;
       }
 
-#menu li #active {
+li #active {
       float:left;
       background:#030303;
 }     
