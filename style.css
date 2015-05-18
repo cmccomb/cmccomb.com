@@ -7,6 +7,20 @@
       float:left;
       background:#e8e8e8;
       }
+
+#menu li #active {
+      float:left;
+      background:#030303;
+}     
+
+#active a {
+      display:block; 
+      padding:10px 33px;
+      text-decoration:none;
+      color:#000000;
+      color:#e4e4e4;
+}
+
 #menu li a { 
       display:block; 
       padding:10px 33px;
