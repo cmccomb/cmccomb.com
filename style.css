@@ -28,16 +28,14 @@ body {
     text-indent:-34.1px;
 }
 
-#title:before, #title:after {
+#titlecontainer h1:before {
+    content: "{";
     font-size: 90px;
 }
 
-#title:before {
-    content: "{";
-}
-
-#title:after {
+#titlecontainer h1:after {
     content: "}";
+    font-size: 90px;
 }
 
 #menucontainer, #titlecontainer, #content, #title{
