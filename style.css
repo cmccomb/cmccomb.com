@@ -48,7 +48,7 @@ body {
     content: "}";
 }
 
-#menu_container, #title_container, #content, #title{
+#menu_container, #title_container, #link_list_container, #content, #title{
     display:table;
 }
 
@@ -118,3 +118,35 @@ img:hover{
     -ms-transform:rotate(30deg);
     -webkit-transform:rotate(30deg);
 }
+
+
+
+#link_list_container {
+    margin: 30px auto;
+    text-align: center;
+}
+
+#link_list {
+    margin: 0;
+    padding: 0;
+}
+
+#link_list li {
+    float:left;
+    width:125px;
+    margin-right:-1.5px;
+    margin-left:-1.5px;
+}
+
+#link_list li a {
+    display:block;
+    text-decoration:none;
+    color:#000000;
+    background:#e8e8e8;
+    border: black solid 3px;
+}
+
+#link_list li a:hover {
+    background:#aaaaaa;
+}
+
