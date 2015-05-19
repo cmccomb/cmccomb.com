@@ -1,31 +1,80 @@
+body {
+    font-family: 'Open sans', serif;
+    margin:0;
+    padding:0;
+}
+
+#wrapper {
+    max-width: 600px;
+    min-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:10px;
+}
+
+#title {
+    font-weight: normal;
+    font-size:75px;
+    margin:0;
+    line-height:90%;
+    padding-left:34.1px;
+    text-indent:-34.1px;
+}
+
+#titlecontainer {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:25px;
+    margin-bottom:25px;
+}
+
+#title:before, #title:after {
+    font-size: 90px;
+}
+
+#title:before {
+    content: "{";
+}
+
+#title:after {
+    content: "}";
+}
+
+#menucontainer, #titlecontainer, #content, #title{
+    display:table;
+}
+
+#menucontainer {
+    margin-top: 40px;
+    text-align: center;
+    width:100%;
+}
 
 #menu { 
-      margin:0; 
-      padding:0; 
+    margin: 0; 
+    padding: 0;
+    width: 100%;
+    min-width:150px;
 }
+
 #menu li { 
       float:left;
-      background:#e8e8e8;
-      }
-
-li #active {
-      float:left;
-      background:#030303;
-}     
-
-#active a {
-      display:block; 
-      padding:10px 33px;
-      text-decoration:none;
-      color:#e4e4e4;
+      width:25%;
 }
 
 #menu li a { 
       display:block; 
-      padding:10px 33px;
+      padding-top:10px;
+      padding-bottom:10px;
       text-decoration:none;
       color:#000000;
-      }
+      background:#e8e8e8;
+}
+
+#menu li a.active {
+      color: #e4e4e4;
+      background: #030303;
+}
 
 #menu li a:hover { 
       background:#ccc; 
@@ -45,20 +94,8 @@ li #active {
       color:#000000;
       }
 
-h1 {
-   font-weight: normal;
-   font-size:85px;
-   margin-bottom:25px;
-}
-
 h2 {
     font-weight: normal;
-}
-
-#center {
-    margin-left:auto; 
-    margin-right:auto; 
-    display:table;
 }
 
 #pubs li {
