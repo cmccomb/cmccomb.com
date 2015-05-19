@@ -42,8 +42,12 @@ body {
     display:table;
 }
 
-#content {
+#justified_content {
     text-align: justify;
+}
+
+#centered_content {
+    text-align: center;
 }
 
 #menucontainer {
