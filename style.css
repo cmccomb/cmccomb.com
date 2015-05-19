@@ -2,6 +2,7 @@ body {
     font-family: 'Open sans', serif;
     margin:0;
     padding:0;
+    overflow-y: scroll;
 }
 
 #wrapper {
