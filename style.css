@@ -84,6 +84,14 @@ body {
       background:#ccc; 
 }
 
+h2 {
+    font-weight: normal;
+}
+
+ol.pubs li {
+    padding-bottom: 0.8em;
+}
+
 #sm {
       margin:0;
       padding:0;
@@ -97,14 +105,6 @@ body {
       text-decoration:none;
       color:#000000;
       }
-
-h2 {
-    font-weight: normal;
-}
-
-#pubs li {
-    padding-bottom: 0.8em;
-}
 
 img{
     border-radius:50%;    
