@@ -12,20 +12,20 @@ body {
     padding:10px;
 }
 
-#title {
+#titlecontainer {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:25px;
+    margin-bottom:25px;
+}
+
+#titlecontainer h1 {
     font-weight: normal;
     font-size:75px;
     margin:0;
     line-height:90%;
     padding-left:34.1px;
     text-indent:-34.1px;
-}
-
-#titlecontainer {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top:25px;
-    margin-bottom:25px;
 }
 
 #title:before, #title:after {
@@ -92,20 +92,6 @@ ol.pubs li {
     padding-bottom: 0.8em;
 }
 
-#sm {
-      margin:0;
-      padding:0;
-}
-#sm li {
-      float:left;
-      margin:10px;
-      }
-#sm li a {
-      display:block;
-      text-decoration:none;
-      color:#000000;
-      }
-
 img{
     border-radius:50%;    
     -webkit-transition: -webkit-transform .8s ease-in-out;
@@ -119,3 +105,19 @@ img:hover{
     -ms-transform:rotate(30deg);
     -webkit-transform:rotate(30deg);
 }
+
+
+
+/*#sm {*/
+/*      margin:0;*/
+/*      padding:0;*/
+/*}*/
+/*#sm li {*/
+/*      float:left;*/
+/*      margin:10px;*/
+/*      }*/
+/*#sm li a {*/
+/*      display:block;*/
+/*      text-decoration:none;*/
+/*      color:#000000;*/
+/*      }*/
