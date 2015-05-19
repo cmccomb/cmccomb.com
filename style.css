@@ -13,7 +13,7 @@ body {
     padding:10px;
 }
 
-#titlecontainer {
+#title_container {
     margin-left: auto;
     margin-right: auto;
     margin-top:25px;
@@ -48,7 +48,7 @@ body {
     content: "}";
 }
 
-#menucontainer, #titlecontainer, #content, #title{
+#menu_container, #title_container, #content, #title{
     display:table;
 }
 
@@ -60,7 +60,7 @@ body {
     text-align: center;
 }
 
-#menucontainer {
+#menu_container {
     margin-top: 40px;
     text-align: center;
     width:100%;
