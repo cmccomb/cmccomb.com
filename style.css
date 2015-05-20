@@ -163,6 +163,89 @@ img:hover{
 
 
 
+/*-----------------------------*/
+/* Formatting for publications */
+/*-----------------------------*/
+ol.pubs li {
+    padding-bottom: 0.8em;
+}
+
+div.author_list {
+    display: inline;
+}
+
+span.author:after {
+    content: ", ";
+}
+
+span.author:first-of-type {
+    font-weight: bold;
+}
+
+span.author:last-of-type:before {
+    content: "and ";
+}
+
+span.author:last-of-type:after {
+    content: "";
+}
+
+span.year:before{
+    content: "(";
+}
+
+span.year:after{
+    content: ") ";
+}
+
+span.title:before {
+    content: '"';
+}
+
+span.title:after {
+    content: '". ';
+}
+
+span.journal {
+    font-style: italic;
+}
+
+span.journal:after {
+    content: ",";
+}
+
+span.volume:before {
+    content: "Vol. ";
+}
+
+span.volume:after {
+    content: ", ";
+}
+
+span.pages:before {
+    content: "pp. ";
+}
+
+span.pages:after {
+    content: ", ";
+}
+
+span.doi:before {
+    content: "doi:";
+}
+
+span.doi:after {
+    content: " ";
+}
+
+span.pdf:before {
+    content: "(";
+}
+
+span.pdf:after {
+    content: ").";
+}
+
 /*---------------------------*/
 /* Misc other things go here */
 /*---------------------------*/
@@ -174,7 +257,5 @@ h2 {
     font-weight: normal;
 }
 
-ol.pubs li {
-    padding-bottom: 0.8em;
-}
+
 
