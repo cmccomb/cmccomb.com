@@ -178,7 +178,7 @@ span.author:after {
     content: ", ";
 }
 
-span.author:first-of-type {
+span.me {
     font-weight: bold;
 }
 
@@ -206,12 +206,16 @@ span.title:after {
     content: '". ';
 }
 
-span.journal {
+span.journal, span.conference {
     font-style: italic;
 }
 
 span.journal:after {
     content: ",";
+}
+
+span.conference:after {
+    content: ".";
 }
 
 span.volume:before {
@@ -227,7 +231,7 @@ span.pages:before {
 }
 
 span.pages:after {
-    content: ", ";
+    content: ". ";
 }
 
 span.doi:before {
