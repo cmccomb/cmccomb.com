@@ -7,6 +7,19 @@
         rel="stylesheet" type="text/css" />
     <link href="http://fonts.googleapis.com/css?family=Droid+Sans+Mono" 
         rel="stylesheet" type="text/css" />
+
+    <!--This defines a list of custom classes-->
+    <script>
+        document.registerElement('pub-year');
+        document.registerElement('pub-author');
+        document.registerElement('pub-title');
+        document.registerElement('pub-journal');
+        document.registerElement('pub-volume');
+        document.registerElement('pub-pages');
+        document.registerElement('pub-conference');
+        document.registerElement('pub-doi');
+        document.registerElement('pub-pdf');
+    </script>
 </head>
 
 <body>
@@ -34,106 +47,109 @@
     </div>
 
     <div id="justified_content">
+
+        <!--Template for creating new pubs-->
+        <!--<pub-author class="me">McComb, C.</pub-author>-->
+        <!--<pub-author           >Xxxxxx, X.</pub-author>-->
+        <!--<pub-author           >Xxxxxx, X.</pub-author>-->
+        <!--<pub-year             >20XX</pub-year>-->
+        <!--<pub-title            >Xxxx Xx Xxx Xxxxxxxx</pub-title>-->
+        <!--<pub-journal          >Design Studies</pub-journal>-->
+        <!--<pub-volume           >XX</pub-volume>-->
+        <!--<pub-pages            >XX-XX</pub-pages>-->
+        <!--<pub-doi              ><a href="http://dx.doi.org/XXX.XXX.XX">XXX.XXX.XX</a></pub-doi>-->
+        <!--<pub-pdf              ><a href="./xxx.pdf">pdf</a></pub-pdf>-->
+
+
         <h2>Journal Articles</h2>
         <ol class="pubs">
             <li>
-                <div class="author_list">
-                    <span class="author me">McComb, C.</span>
-                    <span class="author">Cagan, J.</span>
-                    <span class="author">Kotovsky, K.</span>
-                </div>
-                <span class="year"   >2015</span>
-                <span class="title"  >Lifting the Veil: Drawing Insights about Design Teams from a Cognitively-inspired Computational Model</span>
-                <span class="journal">Design Studies</span>
+                <pub-author class="me">McComb, C.</pub-author>
+                <pub-author>Cagan, J.</pub-author>
+                <pub-author>Kotovsky, K.</pub-author>
+                <pub-year>2015</pub-year>
+                <pub-title>Lifting the Veil: Drawing Insights about Design Teams from a Cognitively-inspired Computational Model</pub-title>
+                <pub-journal>Design Studies</pub-journal>
                 <span>accepted.</span>
             </li>
 
             <li>
-                <div class="author_list">
-                    <span class="author me">McComb, C.</span>
-                    <span class="author">Tehrani, F.M.</span>
-                </div>
-                <span class="year"   >2015</span>
-                <span class="title"  >Enhancement of Shear Transfer in Composite Decks</span>
-                <span class="journal">Engineering Structures</span>
-                <span class="volume" >88</span>
-                <span class="pages"  >251-261</span>
-                <span class="doi"    ><a href="http://dx.doi.org/10.1016/j.engstruct.2015.01.046">10.1016/j.engstruct.2015.01.046</a></span>
-                <span class="pdf"    ><a href="./docs/2015ES_AAM.pdf">pdf</a></span>
+                <pub-author class="me">McComb, C.</pub-author>
+                <pub-author>Tehrani, F.M.</pub-author>
+                <pub-year>2015</pub-year>
+                <pub-title>Enhancement of Shear Transfer in Composite Decks</pub-title>
+                <pub-journal>Engineering Structures</pub-journal>
+                <pub-volume>88</pub-volume>
+                <pub-pages>251-261</pub-pages>
+                <pub-doi><a href="http://dx.doi.org/10.1016/j.engstruct.2015.01.046">10.1016/j.engstruct.2015.01.046</a></pub-doi>
+                <pub-pdf><a href="./docs/2015ES_AAM.pdf">pdf</a></pub-pdf>
             </li>
 
             <li>
-                <div class="author_list">
-                    <span class="author me">McComb, C.</span>
-                    <span class="author">Cagan, J.</span>
-                    <span class="author">Kotovsky, K.</span>
-                </div>
-                <span class="year"   >2015</span>
-                <span class="title"  >Rolling with the Punches: An Examination of Team Performance in a Design Task Subject to Drastic Changes</span>
-                <span class="journal">Design Studies</span>
-                <span class="volume" >36</span>
-                <span class="pages"  >99-121</span>
-                <span class="doi"    ><a href="http://dx.doi.org/10.1016/j.destud.2014.10.001">10.1016/j.destud.2014.10.001</a></span>
-                <span class="pdf"    ><a href="./docs/2014DS_AAM.pdf">pdf</a></span>
+                <pub-author class="me">McComb, C.</pub-author>
+                <pub-author>Cagan, J.</pub-author>
+                <pub-author>Kotovsky, K.</pub-author>
+                <pub-year>2015</pub-year>
+                <pub-title>Rolling with the Punches: An Examination of Team Performance in a Design Task Subject to Drastic Changes</pub-title>
+                <pub-journal>Design Studies</pub-journal>
+                <pub-volume>36</pub-volume>
+                <pub-pages>99-121</pub-pages>
+                <pub-doi><a href="http://dx.doi.org/10.1016/j.destud.2014.10.001">10.1016/j.destud.2014.10.001</a></pub-doi>
+                <pub-pdf><a href="./docs/2014DS_AAM.pdf">pdf</a></pub-pdf>
             </li>
-
         </ol>
 
         <h2>Refereed Conference Papers</h2>
         <ol class="pubs">
 	        <li>
-                <div class="author_list">
-                    <span class="author me">McComb, C.</span>
-                    <span class="author">Cagan, J.</span>
-                    <span class="author">Kotovsky, K.</span>
-                </div>
-                <span class="year">2015</span>
-                <span class="title">Studying Human Design Teams through Computational Teams of Simulated Annealing Agents</span>
-                <span class="conference">ASME IDETC - Design Theory and Methodology Conference</span>
+                <pub-author class="me">McComb, C.</pub-author>
+                <pub-author>Cagan, J.</pub-author>
+                <pub-author>Kotovsky, K.</pub-author>
+                <pub-year>2015</pub-year>
+                <pub-title>Studying Human Design Teams through Computational Teams of Simulated Annealing Agents</pub-title>
+                <pub-conference>ASME IDETC - Design Theory and Methodology Conference</pub-conference>
             </li>
 
             <li>
-                <div class="author_list">
-                    <span class="author me">McComb, C.</span>
-                    <span class="author">Cagan, J.</span>
-                    <span class="author">Kotovsky, K.</span>
-                </div>
-                <span class="year">2015</span>
+                <pub-author class="me">McComb, C.</pub-author>
+                <pub-author>Cagan, J.</pub-author>
+                <pub-author>Kotovsky, K.</pub-author>
+                <pub-year>2015</pub-year>
                 <span class="title">Heterogeneous Simulated Annealing Teams: An Optimizing Search Algorithm Inspired by Engineering Design Teams</span>
                 <span class="conference">International Conference on Engineering Design.</span>
             </li>
 
             <li>
-                <div class="author_list">
-                    <span class="author me">McComb, C.</span>
-                    <span class="author">Goucher-Lambert, K.</span>
-                    <span class="author">Cagan, J.</span>
-                </div>
-                <span class="year">2015</span>
-                <span class="title">Fairness and Manipulation: An Empirical Study of Arrow's Impossibility Theorem</span>
-                <span class="conference">International Conference on Engineering Design.</span>
+                <pub-author class="me">McComb, C.</pub-author>
+                <pub-author class="author">Goucher-Lambert, K.</pub-author>
+                <pub-author class="author">Cagan, J.</pub-author>
+                <pub-year>2015</pub-year>
+                <pub-title>Fairness and Manipulation: An Empirical Study of Arrow's Impossibility Theorem</pub-title>
+                <pub-conference>International Conference on Engineering Design.</pub-conference>
             </li>
 
             <li>
-                <div class="author_list">
-                    <span class="author me">McComb, C.</span>
-                    <span class="author">Johnson, N.G.</span>
-                    <span class="author">Santaeufemia,  P.S.</span>
-                    <span class="author">Shimada, K.</span>
-                </div>
-                <span class="year">2014</span>
-                <span class="title">Identifying Technical and Economic Improvements to the MoneyMaker Hip Pump through Multi-Objective Optimization</span>
-                <span class="conference">IEEE - Global Humanitarian Technology Conference</span>
-                <span class="doi"><a href="http://dx.doi.org/10.1109/GHTC.2014.6970302">10.1109/GHTC.2014.6970302</a></span>
-                <span class="pdf"><a href="./docs/2014GHTC_FinalPaper.pdf">pdf</a></span>
+                <pub-author class="me">McComb, C.</pub-author>
+                <pub-author>Johnson, N.G.</pub-author>
+                <pub-author>Santaeufemia,  P.S.</pub-author>
+                <pub-author>Shimada, K.</pub-author>
+                <pub-year>2014</pub-year>
+                <pub-title>Identifying Technical and Economic Improvements to the MoneyMaker Hip Pump through Multi-Objective Optimization</pub-title>
+                <pub-conference>IEEE - Global Humanitarian Technology Conference</pub-conference>
+                <pub-doi><a href="http://dx.doi.org/10.1109/GHTC.2014.6970302">10.1109/GHTC.2014.6970302</a></pub-doi>
+                <pub-pdf><a href="./docs/2014GHTC_FinalPaper.pdf">pdf</a></pub-pdf>
             </li>
 
-
-            <li><b>McComb, C.</b>, Cagan, J., and Kotovsky, K. (2014)
-                "Quantitative Comparison of High- and Low-Performing Teams in a Design Task Subject to Drastic Changes."
-                <i>ASME IDETC - Design Theory and Methodology Conference</i>.
-                doi:<a href="http://dx.doi.org/10.1115/DETC2014-34653">10.1115/DETC2014-34653</a>.
-                (<a href="./docs/2014IDETC_DTM_FinalPaper.pdf">pdf</a>)</li>
+            <li>
+                <pub-author class="me">McComb, C.</pub-author>
+                <pub-author>Cagan, J.</pub-author>
+                <pub-author>Kotovsky, K.</pub-author>
+                <pub-year>2014</pub-year>
+                <pub-title>Quantitative Comparison of High- and Low-Performing Teams in a Design Task Subject to Drastic Changes</pub-title>
+                <pub-conference>ASME IDETC - Design Theory and Methodology Conference</pub-conference>
+                <pub-doi><a href="http://dx.doi.org/10.1115/DETC2014-34653">10.1115/DETC2014-34653</a></pub-doi>
+                <pub-pdf><a href="./docs/2014IDETC_DTM_FinalPaper.pdf">pdf</a></pub-pdf>
+            </li>
 
             <li>Santaeufemia, P.S., Johnson, N.G., <b>McComb, C.</b>, and Shimada, K. (2014)
                 "Improving Irrigation in Remote Areas: Multi-objective Optimization of a Treadle Pump."
@@ -156,19 +172,35 @@
         <h2>Other</h2>
         <ol class="pubs">
 
-            <li><b>McComb, C.</b> and Tehrani, F.M. (2012)
-                "Enhancement of Composite Decks."
-                <i>California State University Honors Conference</i>.
-                (<a href="./docs/2012CSUHC_Final_Poster.pdf">poster</a>)</li>
+            <li>
+                <pub-author class="me">McComb, C.</pub-author>
+                <pub-author>Tehrani, F.M.</pub-author>
+                <pub-year>2012</pub-year>
+                <pub-title>Enhancement of Composite Decks</pub-title>
+                <pub-conference>California State University Honors Conference</pub-conference>
+                <pub-pdf><a href="./docs/2012CSUHC_Final_Poster.pdf">poster</a></pub-pdf>
+            </li>
 
-            <li><b>McComb, C.</b> and Lawson, M. (2012)
-                "Numerical Modeling of Wave Energy Converters in OpenFOAM."
-                <i>California State University Honors Conference</i>.
-                (<a href="./docs/2012CSUHC_Final_Presentation.pdf">presentation</a>)</li>
+            <li>
+                <pub-author class="me">McComb, C.</pub-author>
+                <pub-author>Lawson, M.</pub-author>
+                <pub-year>2012</pub-year>
+                <pub-title>Numerical Modeling of Wave Energy Converters in OpenFOAM</pub-title>
+                <pub-conference>California State University Honors Conference</pub-conference>
+                <pub-pdf><a href="./docs/2012CSUHC_Final_Presentation.pdf">presentation</a></pub-pdf>
+            </li>
 
-            <li>Rath, L., Smith, C., Karimi, Y., <b>McComb, C.</b>, Petrucci, M., and Ward, D. (2011)
-                "Sustaining Service through Student Voice."
-                <i>Continuums of Service Conference</i>.</li>
+            <li>
+                <pub-author>Rath, L.</pub-author>
+                <pub-author>Smith, C.</pub-author>
+                <pub-author>Karimi, Y.</pub-author>
+                <pub-author class="me">McComb, C.</pub-author>
+                <pub-author>Petrucci, M.</pub-author>
+                <pub-author>Ward, D.</pub-author>
+                <pub-year>2011</pub-year>
+                <pub-title>Sustaining Service through Student Voice</pub-title>
+                <pub-conference>Continuums of Service Conference</pub-conference>
+            </li>
 
         </ol>
     </div>

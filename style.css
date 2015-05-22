@@ -96,20 +96,22 @@ body {
       display:block; 
       padding-top:10px;
       padding-bottom:10px;
-      color:#000000;
+      color: black;
       background:#e8e8e8;
 }
 
 #menu li a.active {
-      color: #e4e4e4;
-      background: #030303;
+    color: #e4e4e4;
+    background: #030303;
 }
 
-#menu li a:hover { 
-      background:#ccc; 
+#menu li a:hover {
+    background:#ccc;
 }
 
-
+#menu li a.active:hover {
+    color: black;
+}
 
 /*-------------------------------*/
 /* Stuff for link list goes here */
@@ -170,83 +172,79 @@ ol.pubs li {
     padding-bottom: 0.8em;
 }
 
-div.author_list {
-    display: inline;
+/*Formatting authors*/
+pub-author:nth-last-of-type(2):after {
+    content: "";
 }
-
-span.author:after {
+pub-author:nth-child(n+2):after {
     content: ", ";
 }
-
-span.me {
+pub-author.me {
     font-weight: bold;
 }
-
-span.author:last-of-type:before {
+pub-author:last-of-type:before {
     content: "and ";
 }
-
-span.author:last-of-type:after {
+pub-author:last-of-type:after {
     content: "";
 }
 
-span.year:before{
+/*Formatting years*/
+pub-year:before{
     content: "(";
 }
-
-span.year:after{
+pub-year:after{
     content: ") ";
 }
 
-span.title:before {
+/*Formatting titles*/
+pub-title:before {
     content: '"';
 }
-
-span.title:after {
+pub-title:after {
     content: '". ';
 }
 
-span.journal, span.conference {
+/*Formatting journals and conferences*/
+pub-journal, pub-conference {
     font-style: italic;
 }
-
-span.journal:after {
+pub-journal:after {
     content: ",";
 }
-
-span.conference:after {
+pub-conference:after {
     content: ".";
 }
 
-span.volume:before {
+/*Formatting journal volume*/
+pub-volume:before {
     content: "Vol. ";
 }
-
-span.volume:after {
+pub-volume:after {
     content: ", ";
 }
 
-span.pages:before {
+/*Formatting journal pages*/
+pub-pages:before {
     content: "pp. ";
 }
-
-span.pages:after {
+pub-pages:after {
     content: ". ";
 }
 
-span.doi:before {
+/*Formatting journal doi*/
+pub-doi:before {
     content: "doi:";
 }
-
-span.doi:after {
+pub-doi:after {
     content: " ";
 }
 
-span.pdf:before {
+/*Formatting journal pdf*/
+pub-pdf:before {
     content: "(";
 }
-
-span.pdf:after {
+pub-pdf:after {
     content: ").";
 }
 
