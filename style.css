@@ -67,6 +67,7 @@ body {
 
 #centered_content {
     text-align: center;
+    margin: 0 auto;
 }
 
 
@@ -172,11 +173,17 @@ ol.pubs li {
     padding-bottom: 0.8em;
 }
 
-/*Formatting authors*/
+/*Formatting authors */
+pub-author:after {
+    /*This adds a comma after every author's name*/
+    content: ", ";
+}
 pub-author:nth-last-of-type(2):after {
+    /*This scrubs the comma from the second to last author's name */
     content: "";
 }
 pub-author:nth-child(n+2):after {
+    /*This adds a comma to every author after the first*/
     content: ", ";
 }
 pub-author.me {
