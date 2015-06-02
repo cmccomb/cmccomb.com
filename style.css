@@ -255,6 +255,14 @@ pub-pdf:after {
     content: ").";
 }
 
+/*Formatting notes on publications*/
+pub-note {
+    font-style: italic;
+}
+pub-note:after {
+    content: ".";
+}
+
 /*---------------------------*/
 /* Misc other things go here */
 /*---------------------------*/
