@@ -263,6 +263,20 @@ pub-note:after {
     content: ".";
 }
 
+pub-award {
+    font-weight: bold;
+    color: lightseagreen;
+    display: block;
+}
+
+pub-award:before {
+    content: "[";
+}
+
+pub-award:after {
+    content: "]";
+}
+
 
 
 /*---------------------------*/
