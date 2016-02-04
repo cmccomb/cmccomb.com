@@ -161,10 +161,10 @@ img{
     transition: transform .8s ease-in-out;
 }
 
-img:hover{
-    transform:rotate(30deg);
-    -webkit-transform:rotate(30deg);
-}
+/*img:hover{*/
+    /*transform:rotate(30deg);*/
+    /*-webkit-transform:rotate(30deg);*/
+/*}*/
 
 
 
