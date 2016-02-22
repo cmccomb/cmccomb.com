@@ -249,15 +249,7 @@ pub-doi:before {
     content: "doi:";
 }
 pub-doi:after {
-    content: " ";
-}
-
-/*Formatting journal pdf*/
-pub-pdf:before {
-    content: "(";
-}
-pub-pdf:after {
-    content: ").";
+    content: ".";
 }
 
 /*Formatting notes on publications*/
@@ -270,16 +262,14 @@ pub-note:after {
 
 pub-award {
     font-weight: bold;
-    color: lightseagreen;
+    color: #157EFB;
     display: block;
 }
 
 pub-award:before {
-    content: "[";
 }
 
 pub-award:after {
-    content: "]";
 }
 
 
