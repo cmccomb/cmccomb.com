@@ -285,5 +285,11 @@ h2 {
     font-weight: normal;
 }
 
-
+img.award {
+    width:1.4em;
+    padding: 0;
+    margin-bottom:-0.2em;
+    margin-top:-0.2em;
+    margin-left:-0.2em;
+}
 
