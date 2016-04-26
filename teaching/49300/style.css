@@ -13,7 +13,6 @@ h2, h3 {
     color: #2483A6;
 }
 
-
 div#title h1 {
     font-size:45px;
     margin-bottom: 0;
@@ -28,7 +27,7 @@ div#title h2 {
 /*TODO Figure out proper width on smalls screens*/
 
 div#wrapper {
-    max-width: 725px;
+    max-width: 700px;
     min-width: 500px;
     margin-left: auto;
     margin-right: auto;
@@ -51,12 +50,12 @@ div.sidebar-left {
 
 div.content-right {
     float: left;
-    width: 500px;
+    width: 475px;
 }
 
 div.content-center {
     max-width: 700px;
-    min-width: 475px;
+    min-width: 500px;
 }
 
 div.content-right p {
