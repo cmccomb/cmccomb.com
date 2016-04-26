@@ -26,8 +26,8 @@ div#title h2 {
 }
 
 div#wrapper {
-    max-width: 725px;
-    min-width: 500px;
+    max-width: 625px;
+    min-width: 400px;
     margin-left: auto;
     margin-right: auto;
     padding: 25px;
@@ -49,11 +49,11 @@ div.sidebar-left {
 
 div.content-right {
     float: left;
-    width: 500px;
+    width:400px;
 }
 
 div.content-center {
-    max-width: 700px;
+    max-width: 600px;
     min-width: 400px;
 }
 
