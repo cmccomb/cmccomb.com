@@ -1,3 +1,7 @@
+html {
+    overflow-y: scroll;
+}
+
 body {
     background: lightgray;
     font-family: Arial, Helvetica, sans-serif;
@@ -52,7 +56,7 @@ div.content-right {
 }
 
 div.content-center {
-    max-width: 650px;
+    max-width: 700px;
     min-width: 450px;
 }
 
@@ -147,5 +151,10 @@ th, td {
 }
 
 tr.noclass {
-    background: gray;
+    background: lightgray;
+}
+
+table {
+    width: 100%;
+    margin: 0 auto;
 }
