@@ -44,14 +44,14 @@ div#wrapper {
 
 div.sidebar-left {
     float: left;
-    width: 200px;
-    margin-right: 20px;
+    width: 225px;
+    margin-right: 25px;
     margin-left: 0;
 }
 
 div.content-right {
     float: left;
-    width: 480px;
+    width: 450px;
     margin-left: 0;
     margin-right: 0;
 }
