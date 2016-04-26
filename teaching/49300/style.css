@@ -29,7 +29,7 @@ div#title h2 {
 
 div#wrapper {
     max-width: 725px;
-    min-width: 525px;
+    min-width: 500px;
     margin-left: auto;
     margin-right: auto;
     padding: 25px;
@@ -56,7 +56,7 @@ div.content-right {
 
 div.content-center {
     max-width: 700px;
-    min-width: 500px;
+    min-width: 475px;
 }
 
 div.content-right p {
