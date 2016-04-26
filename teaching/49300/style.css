@@ -25,6 +25,8 @@ div#title h2 {
     text-align: center;
 }
 
+/*TODO Figure out proper width on smalls screens*/
+
 div#wrapper {
     max-width: 625px;
     min-width: 400px;
@@ -32,7 +34,7 @@ div#wrapper {
     margin-right: auto;
     padding: 25px;
     margin-top: 25px;
-    marign-bottom: 25px;
+    margin-bottom: 25px;
     background: white;
     overflow: hidden;
 
