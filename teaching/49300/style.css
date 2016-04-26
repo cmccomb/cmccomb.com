@@ -37,9 +37,9 @@ div#wrapper {
     background: white;
     overflow: hidden;
 
-    box-shadow:2px 2px 10px 10px #999;
-    -webkit-box-shadow:2px 2px 10px 10px #999;
-    -moz-box-shadow:2px 2px 10px 10px #999;
+    /*box-shadow:2px 2px 10px 10px #999;*/
+    /*-webkit-box-shadow:2px 2px 10px 10px #999;*/
+    /*-moz-box-shadow:2px 2px 10px 10px #999;*/
 }
 
 div.sidebar-left {
