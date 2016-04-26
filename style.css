@@ -86,6 +86,7 @@ body {
     padding: 0;
     width: 100%;
     min-width:150px;
+    list-style-type: none;
 }
 
 #menu li { 
@@ -127,6 +128,7 @@ body {
 #link_list {
     margin: 0;
     padding: 0;
+    list-style-type: none;
 }
 
 #link_list li {
