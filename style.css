@@ -133,9 +133,9 @@ body {
 
 #link_list li {
     float:left;
-    width:125px;
-    margin-right:-1.5px;
-    margin-left:-1.5px;
+    /*width:125px;*/
+    margin-right:5px;
+    margin-left:5px;
 }
 
 #link_list li a {
@@ -143,7 +143,7 @@ body {
     color:#000000;
     background:#e8e8e8;
     border: black solid 3px;
-    padding: 3px 0;
+    padding: 3px 7px;
 }
 
 #link_list li a:hover {
