@@ -17,7 +17,6 @@ function CountDownTimer(dt, id)
         var now = new Date().getTime();
         var distance = end - now;
         if (distance < 0) {
-
             clearInterval(timer);
             window.location = "../index.html";
             return;
@@ -27,8 +26,8 @@ function CountDownTimer(dt, id)
         var minutes = Math.floor((distance % _hour) / _minute);
         var seconds = Math.floor((distance % _minute) / _second);
 
-        document.getElementById(id+'d').innerHTML = days;
-        document.getElementById(id+'h').innerHTML = hours;
+        document.getElementById(id+'d').innerHTML = zeroPad(days, 2);
+        document.getElementById(id+'h').innerHTML = zeroPad(hours, 2);
         document.getElementById(id+'m').innerHTML = zeroPad(minutes, 2);
         document.getElementById(id+'s').innerHTML = zeroPad(seconds, 2);
     }

@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>Curricula Vitae</title>
+    <title>Defense</title>
     <meta name="viewport" content="width=420px">
     <link rel="stylesheet" type="text/css" href="../style.css" />
     <link href="http://fonts.googleapis.com/css?family=Open+Sans"
@@ -9,6 +9,30 @@
           rel="stylesheet" type="text/css" />
     <script src="../google_tracking.js"></script>
     <script src="defensecheck.js"></script>
+
+    <style>
+        .number {
+            font-size: 350%;
+            font-family: Droid Sans Mono, monospace;
+            color: white;
+            background: black;
+            display: block;
+            width:80px;
+            margin: 20px 10px 0 10px;
+        }
+        .number-label {
+            font-family: Droid Sans Mono, monospace;
+            background: #999;
+            display: block;
+            width:80px;
+            margin: 0 10px 40px 10px;
+        }
+        .number-container {
+            float:left;
+            width: 100px;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -26,15 +50,22 @@
         <span id="title">Defense</span>
     </div>
 
-    <div id="centered_content">
-        <div style="font-family: 'Droid Sans Mono'; font-size:200%">
-            <span id="countdownd" style="font-size: 200%;">0</span><span>DAYS </span>
-            <span id="countdownh" style="font-size: 200%;">0</span><span>HR </span>
-            <span id="countdownm" style="font-size: 200%;">0</span><span>MIN </span>
-            <span id="countdowns" style="font-size: 200%;">0</span><span>SEC </span>
+    <div id="centered_content" style="width:400px">
+        <div class="number-container">
+            <span class="number" id="countdownd">00</span><span class="number-label">DAYS</span>
         </div>
+        <div class="number-container">
+            <span class="number" id="countdownh">00</span><span class="number-label">HOURS</span>
+        </div>
+        <div class="number-container">
+            <span class="number" id="countdownm">00</span><span class="number-label">MINUTES</span>
+        </div>
+        <div class="number-container">
+            <span class="number" id="countdowns">00</span><span class="number-label">SECONDS</span>
+        </div>
+        <p>Thanks for your interest in my thesis defense! It is schedule for August 25, 2016 at 1:00PM EST. At that time, this page will redirect to a live webcast.</p>
     </div>
-</div>
+
 </body>
 
 </html>
